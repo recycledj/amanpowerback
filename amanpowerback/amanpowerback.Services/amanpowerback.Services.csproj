@@ -1,13 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\amanpowerback.Services\amanpowerback.Services.csproj" />
+    <ProjectReference Include="..\amanpowerback.Repositories\amanpowerback.Repositories.csproj" />
     <ProjectReference Include="..\amanpowerback.Shared\amanpowerback.Shared.csproj" />
   </ItemGroup>
-
 
 </Project>
